@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="FWkk9L4pys4eAMgCTlNP" name="Страница 1">
+        <mxGraphModel dx="1381" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;fontSize=17;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="10" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;fontSize=17;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="number1 = 22&lt;br&gt;number2 = 5" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;rounded=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="number1 mod number2 != 0" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="210" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=17;" edge="1" parent="1" source="7" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="print(number1 mod number2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="320" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="print(number1 is multiply number2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="320" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
